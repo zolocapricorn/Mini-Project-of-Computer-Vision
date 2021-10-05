@@ -39,7 +39,4 @@ def train():
             label_train.append(name)
         totalFiles = 0
     print(np.shape(feature_train))
-    password = input()
-    if password == "1":
-        keepintofolder(feature_train, label_train)
 train()
